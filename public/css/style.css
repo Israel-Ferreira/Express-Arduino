@@ -23,3 +23,34 @@ header{
     font-size: 20px;
     margin-left: 1%;
 }
+
+.buttons{
+    margin: 1%;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-turnOn{
+    background-color:  rgb(14, 165, 14);
+    color: #FFF;
+}
+
+.btn-turnOff{
+    background-color: #F00;
+    color: #FFF;
+}
+
+.btn-blink{
+    background-color: rgb(37, 47, 180);
+    color: #FFF;
+}
