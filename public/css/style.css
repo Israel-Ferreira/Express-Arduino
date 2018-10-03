@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+header{
+    background-color: darkslategray;
+    color: #FFF;
+    height: 80px;
+    padding: 30px;
+}
+
+.nav-logo{
+    font-size: 20px;
+    margin-left: 1%;
+}
