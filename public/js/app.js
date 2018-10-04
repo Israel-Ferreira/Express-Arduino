@@ -6,6 +6,8 @@ const controleLed = action => {
 
 let btnOn = document.getElementById("btn-on");
 let btnOff = document.getElementById("btn-off");
+let btnBlink = document.getElementById("btn-blink");
 
 btnOn.addEventListener("click",() => controleLed("on"));
 btnOff.addEventListener("click", () => controleLed("off"));
+btnBlink.addEventListener("click",() => controleLed("blink"));
